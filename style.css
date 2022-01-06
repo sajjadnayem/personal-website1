@@ -2,12 +2,6 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0px;
 }
-
-/* section{ */
-    /* display: flex; */
-    /* height: 500px;
-    padding-bottom: 100px; */
-/* } */
 .title{
     color: #b92b27;
 }
@@ -16,18 +10,16 @@ body{
     padding: 5% 10%;
 }
 .half-width img{
-    width: 50%;
+    width: 426px;
 }
 #top-banner{
     border-image: linear-gradient(tomato, salmon);
     border-image-slice: 1;
     padding-left: 2%;
     border-left: 4px solid;
-    border-radius: 7px solid;
+    border-radius: 12px;
+    font-size: 50px;
 }
-/* #top-banner p{
-    font-size: 60px;
-} */
 .link-button{
     text-decoration: none;
     text-align: center;
@@ -36,10 +28,11 @@ body{
     border-radius: 5px;
     color: white;
 }
+h2{
+  font-size: 36px;  
+}
 .flex-container{
     display: flex;
-    /* margin: 10px0px; 
-     padding-bottom: 100px; */
 }
 .mission-title{
     text-align: center;
@@ -49,14 +42,15 @@ body{
     box-sizing: border-box;
     border-radius: 26px;
     margin: 5% 5%;
-    height: 376px;
     width: 360px;
-    padding-left: 20px;
+    padding: 10px 20px;
 }
 .mission-area img{
-    height: 141px;
     width: 141px;
 }
+.develop img{
+    width: 400px;    
+    }
 #mission{
     background-color: antiquewhite;
 }
@@ -65,6 +59,9 @@ body{
 }
 #goal{
     background-color: darksalmon;
+}
+.learning-technology{
+    text-align: center;
 }
 footer{
     text-align: center;
@@ -84,3 +81,5 @@ footer p{
     color: rgb(255, 255, 255);
     font-size: 14px;
 }
+
+
